@@ -17,5 +17,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+  document.addEventListener("contextmenu", disable);
+  function disableF12(e) {
+    if (e.keyCode === 123) {
+        disable();
+    }
+  }
+  function disable(e){
+    e.preventDefault();
+  }
+</script>
+
   </body>
 </html>

@@ -114,15 +114,15 @@ const ContactSection = () => {
                 <p>We respond within 24 hours.</p>
               </div>
 
-              <a href="mailto:hello@techstarter.com">
-                <Mail size={20} /> hello@techstarter.com
+              <a href="mailto:goelvora@gmail.com">
+                <Mail size={20} /> goelvora@gmail.com
               </a>
 
-              <a href="tel:+919876543210">
-                <Phone size={20} /> +91 98765 43210
+              <a href="tel:+918318353397">
+                <Phone size={20} /> +91 8318353397
               </a>
 
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/918318353397" target="_blank" rel="noopener noreferrer">
                 <MessageCircle size={20} /> WhatsApp
               </a>
             </div>

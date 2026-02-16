@@ -12,6 +12,8 @@ import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
 import Founder from "../assets/team/Founder.jpeg";
 import CoFounder from "../assets/team/cofounder.jpg";
+import Shubham from "../assets/team/shubham.jpeg";
+import Siddharth from "../assets/team/siddharth.jpeg";
 
 const coreValues = [
   { icon: Award, title: "Quality Over Quantity", description: "We focus on delivering excellence, not volume." },
@@ -46,7 +48,7 @@ const teamMembers = [
   {
     name: "Siddharth Verma",
     role: "UI/UX Designer",
-    image: Founder,
+    image: Siddharth,
     about:
       "UI/UX Designer at ElvoraGo specializing in user research, interaction design, and crafting visually appealing, accessible, and intuitive digital experiences.",
     portfolio: "#",
@@ -57,7 +59,7 @@ const teamMembers = [
   {
     name: "Shubham Bind",
     role: "UI/UX Designer",
-    image: CoFounder,
+    image: Shubham,
     about:
       "UI/UX Designer at ElvoraGo focused on intuitive user experiences, clean visual design, usability, and creating modern, user-centered digital interfaces.",
     portfolio: "#",
