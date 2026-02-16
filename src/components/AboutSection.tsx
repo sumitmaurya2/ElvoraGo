@@ -10,10 +10,10 @@ import {
 } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
-// import founder from "../assets/team/founder.jpeg";
-import CoFounder from "../assets/team/cofounder.jpg";
-import Shubham from "../assets/team/shubham.jpeg";
-import Siddharth from "../assets/team/siddharth.jpeg";
+import founder from "@founder.jpeg";
+import CoFounder from "@Cofounder.jpg";
+import Shubham from "@shubham.jpeg";
+import Siddharth from "@/Siddharth.jpeg";
 
 const coreValues = [
   { icon: Award, title: "Quality Over Quantity", description: "We focus on delivering excellence, not volume." },
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Sumit Maurya",
     role: "Founder & Full Stack Engineer",
-    image: CoFounder,
+    image: founder,
     about:
       "Founder of ElvoraGo, a Computer Science engineer and full-stack developer passionate about scalable architecture, performance-driven systems, and building future-ready digital products.",
     portfolio: "#",
