@@ -12,10 +12,12 @@ import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
 
 // ✅ FIXED IMAGE PATHS
+// ✅ Correct Image Imports (case-sensitive safe)
 import founder from "../assets/team/founder.jpeg";
-import CoFounder from "../assets/team/cofounder.jpg";
-import Shubham from "../assets/team/shubham.jpeg";
-import Siddharth from "../assets/team/siddharth.jpeg";
+import coFounder from "../assets/team/cofounder.jpg";
+import shubham from "../assets/team/shubham.jpeg";
+import siddharth from "../assets/team/siddharth.jpeg";
+
 
 const coreValues = [
   { icon: Award, title: "Quality Over Quantity", description: "We focus on delivering excellence, not volume." },
@@ -29,47 +31,28 @@ const teamMembers = [
     name: "Sumit Maurya",
     role: "Founder & Full Stack Engineer",
     image: founder,
-    about:
-      "Founder of ElvoraGo, a Computer Science engineer and full-stack developer passionate about scalable architecture, performance-driven systems, and building future-ready digital products.",
-    portfolio: "#",
-    github: "https://github.com/sumitmaurya2",
-    email: "mailto:sumit2004015@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sumit-maurya-34798032a/",
+    ...
   },
   {
     name: "Sumit Vishwakrma",
     role: "Co-Founder & Full Stack Engineer",
-    image: CoFounder,
-    about:
-      "Co-Founder of ElvoraGo, a Computer Science engineer and full-stack developer with knowledge of AI tools and a focus on scalable, modern digital products.",
-    portfolio: "https://sumit-vishwakarma.netlify.app/",
-    github: "https://github.com/cjsumit",
-    email: "mailto:vishwakarmasumit272@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sumit-vishwakarma272/",
+    image: coFounder,
+    ...
   },
   {
     name: "Siddharth Verma",
     role: "UI/UX Designer",
-    image: Siddharth,
-    about:
-      "UI/UX Designer at ElvoraGo specializing in user research, interaction design, and crafting visually appealing, accessible, and intuitive digital experiences.",
-    portfolio: "#",
-    github: "https://github.com/siddhartha0812",
-    email: "mailto:siddharthaverma0810@gmail.com",
-    linkedin: "https://www.linkedin.com/in/siddharthav08/",
+    image: siddharth,
+    ...
   },
   {
     name: "Shubham Bind",
     role: "UI/UX Designer",
-    image: Shubham,
-    about:
-      "UI/UX Designer at ElvoraGo focused on intuitive user experiences, clean visual design, usability, and creating modern, user-centered digital interfaces.",
-    portfolio: "#",
-    github: "https://github.com/Shubham123-k",
-    email: "mailto:shubhamkbind69@gmail.com",
-    linkedin: "https://www.linkedin.com/in/shubham-bind-53305432b/",
+    image: shubham,
+    ...
   },
 ];
+
 
 const AboutSection = () => {
   return (
