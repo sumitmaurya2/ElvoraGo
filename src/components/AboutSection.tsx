@@ -11,9 +11,7 @@ import {
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
 
-// ✅ FIXED IMAGE PATHS
-// ✅ Correct Image Imports (case-sensitive safe)
-import founder from "../assets/Team/founder.jpeg";
+import founder from "../assets/Team/Founder.jpeg";
 import coFounder from "../assets/Team/Cofounder.jpg";
 import shubham from "../assets/Team/shubham.jpeg";
 import siddharth from "../assets/Team/Siddharth.jpeg";
