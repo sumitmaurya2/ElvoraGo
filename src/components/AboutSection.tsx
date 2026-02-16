@@ -13,10 +13,10 @@ import SectionHeading from "./SectionHeading";
 
 // ✅ FIXED IMAGE PATHS
 // ✅ Correct Image Imports (case-sensitive safe)
-import founder from "../assets/team/founder.jpeg";
-import coFounder from "../assets/team/cofounder.jpg";
-import shubham from "../assets/team/shubham.jpeg";
-import siddharth from "../assets/team/siddharth.jpeg";
+import founder from "../assets/Team/founder.jpeg";
+import coFounder from "../assets/Team/Cofounder.jpg";
+import shubham from "../assets/Team/shubham.jpeg";
+import siddharth from "../assets/Team/Siddharth.jpeg";
 
 
 const coreValues = [
